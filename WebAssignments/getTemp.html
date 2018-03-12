@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href='/static/style.css' />
+    <title>{{ title }}</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1> Get Temp Data </h1>
+  </body>
+
+  <form action = "http://192.168.0.255/result" method = "POST">
+    Enter starting date: <br>
+    <input type="date" name="date[]" min="2018-03-06" max="2018-04-06"><br>
+    Enter ending date: <br>
+    <input type="date" name="date[]" min="2018-03-06" max="2018-04-06"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <table style="width:50%">
+    <tr>
+      <th>Date and Time</th>
+      <th>Temperature (ºC)</th>
+      <th>Temperature (ºF)</th>
+    </tr>
+    <tr>
+      <td>03/09/18 09:28:02 EDT</td>
+      <td>23.9</td>
+      <td>75</td>
+    </tr>
+
+  </table>
+
+</html>
