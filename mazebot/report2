@@ -1,0 +1,15 @@
+This is the 80% Milestone Interim Report for our mazebot project. On our last report we stated that we have wired the breadboard and assembled the base chassis of the robot, and began to test the wirings of on the breadboard for one of the motor drivers.
+
+
+Since then we have accomplished the following:
+* All motor drivers wired and running properly
+* Base chassis assembled
+* Main board put on car with motor drivers and wiring
+* Line sensor reflectance array tested and functions
+
+
+We still need to accomplish the following:
+* Implement the sensor array onto the robot
+* Implement maze solving algorithm
+* Complete the assembly of the chassis
+* Test maze solving algorithms
